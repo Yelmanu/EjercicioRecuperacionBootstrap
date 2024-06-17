@@ -1,0 +1,136 @@
+@charset "UTF-8";
+
+.caja {
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-start;
+	color: black;
+	font-size: 1.2em;
+	font-weight: bold;
+	padding: 10px;
+	margin: 5px;
+	text-align: center;
+}
+
+.caja-a {
+	background-color: #f5b942;
+	height: 500px;
+}
+
+.caja-b {
+	background-color: #b0b0b0;
+	height: 250px;
+	width: 250px;
+}
+
+.caja-c {
+	background-color: #b0b0b0;
+	height: 250px;
+	width: 250px;
+}
+
+.caja-d {
+	background-color: #b0b0b0;
+	height: 250px;
+	width: 700px;
+}
+
+.caja-e {
+	background-color: #b0b0b0;
+	height: 125px;
+	width: 250px;
+}
+
+.caja-f {
+	background-color: #34d3e3;
+	height: 125px;
+	width: 945px;
+}
+
+.caja-g {
+	background-color: #d484cc;
+	height: 360px;
+}
+
+.caja-h {
+	background-color: #b0b0b0;
+	height: 150px;
+	width: 725px;
+}
+
+.caja-i {
+	background-color: #b0b0b0;
+	height: 250px;
+}
+
+.caja-j {
+	background-color: #b0b0b0;
+	height: 200px;
+	width: 725px;
+}
+
+.caja-k {
+	background-color: #34d3e3;
+	height: 50px;
+	width: 1685px;
+}
+
+@media ( max-width : 767.98px) {
+	.row {
+		flex-direction: column;
+	}
+	.caja {
+		width: 100%;
+		justify-content: center;
+		align-items: center;
+	}
+	.order-sm-1 {
+		order: 1;
+	}
+	.order-sm-2 {
+		order: 2;
+	}
+	.order-sm-3 {
+		order: 3;
+	}
+	.order-sm-4 {
+		order: 4;
+	}
+	.order-sm-5 {
+		order: 5;
+	}
+	.order-sm-6 {
+		order: 6;
+	}
+	.order-sm-7 {
+		order: 7;
+	}
+	.order-sm-8 {
+		order: 8;
+	}
+	.order-sm-9 {
+		order: 9;
+	}
+	.order-sm-10 {
+		order: 10;
+	}
+	.order-sm-11 {
+		order: 11;
+	}
+}
+
+@media ( min-width : 768px) and (max-width: 1199.98px) {
+	.bg-md {
+		background-color: #dc3545;
+		color: white;
+	}
+	.caja-k {
+		height: 150px;
+	}
+	.order-md-2 {
+		order: 4;
+	}
+	.order-md-4 {
+		order: 2;
+	}
+}
